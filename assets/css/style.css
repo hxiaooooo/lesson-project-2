@@ -141,6 +141,7 @@ a {
   padding-top: 56px;
   padding-bottom: 65px;
   background: var(--primary-bg-color);
+  margin-bottom: 100px;
 }
 
 .hero .body {
@@ -308,7 +309,7 @@ a {
 
 /* ============================ Courses ============================  */
 .courses {
-  padding: 200px 0;
+  padding: 100px 0;
 }
 
 /* Courses row section */
@@ -347,30 +348,17 @@ a {
   justify-content: center;
   width: 40px;
   height: 40px;
+  font-size: 13px;
+  border: 1px solid var(--primary-color);
   border-radius: 50%;
+  color: var(--primary-color);
   cursor: pointer;
   transition: all 0.3 ease;
 }
 
-.courses .arrow-left {
-  font-size: 13px;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
-}
-
-.courses .arrow-left:hover {
-  border: none;
+.courses .arrow:hover {
   background: var(--primary-color);
   color: #fff;
-}
-
-.courses .arrow-right {
-  background: var(--primary-color);
-  color: #fff;
-}
-
-.courses .arrow-right:hover {
-  opacity: 0.9;
 }
 
 /* Courses listing section */
